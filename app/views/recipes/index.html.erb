@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Webデザイナー TARO YAMADAのポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Webデザイナー TARO YAMADAのポートフォリオサイトです！" />
+  <title>YUYA YAMAMOTO ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">
+        <div class="logo-title">YUYA YAMAMOTO</div>
+        <div class="logo-subtitle">PORTFOLIO</div>
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+
+      <!-- .works-section -->
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">WORKS</h2>
+          </div>
+          <div class="section-lead">
+            <p>Web（デザインとコーディング）制作の記録です。</p>
+          </div>
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <a href="https://cookpro.net/" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <%= image_tag 'cookpro.jpg' %>
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">COOK PRO</div>
+                  <div class="works-text">HTML / CSS / Ruby on Rails / JavaScript
+                  </div>
+                  <div class="works-url"><a class="works-url-link" href="https://cookpro.net/" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.works-section -->
+
+      <!-- .feature-section -->
+      <section class="feature-section section" id="feature-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">FEATURE</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              COOK PROの解説
+            </p>
+          </div>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <a href="https://cookpro.net/" target="_blank" class="hover-action">
+                <%= image_tag 'recipepe.png', class: "feature-image" %></a>
+                    
+              </div>
+              <div class="feature-body">
+                <p>
+                  <span class="text-bold">サイト名：</span><br>COOK PRO<br><a href="https://cookpro.net/" target="_blank">https://cookpro.net/</a></p>
+                <p><span class="text-bold">担当：</span><br>HTML / CSS / Ruby on Rails / JavaScript</p>
+                <p><span class="text-bold">GitHub：</span><br><a href="https://github.com/yyamamotoo/cook-pro" target="_blank">https://github.com/yyamamotoo/cook-pro</a></p>
+                <p><span class="text-bold">管理者ID：</span><br>emal:ad@a.a<br>PW:q1q1q1<br>管理者のみがレシピを投稿、編集、削除できます。</p>
+                <p><span
+                    class="text-bold">背景：</span><br>このアプリを作った理由は、料理や食の楽しさに”のめり込む”人が増えて欲しいと思ったからです。
+                    どういうことかというと、料理の楽しさに気付き始めた時、または気づく時は簡単なレシピで思っていたよりも簡単に美味しく作れた時が多いと思います。<br>
+                    そんなふうに料理の楽しさに気づき、本格なレシピに手を出してみようとした時に既存のサイトでは本格レシピを取り扱っているサイトはあまりありません。<br>
+                    せっかく料理にのめり込むチャンスだったのに、本格レシピサイトがないがためにのめり込めずじまいではもったいないと思います。<br>
+                    <br>
+                    アプリの役割：<br>
+                    ・本格レシピに挑戦したい人のサポート<br>
+                    ・簡単なレシピと何が違うか比較できる<br>
+                    ・今後挑戦していきたい料理のジャンルを絞ることができる<br>
+                    ・ジャンルを絞り込むことにより購入するレシピ本を厳選できる<br>
+                    ・家族や彼女・彼氏にカッコつけられる<br>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.feature-section -->
+
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">ABOUT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              こんにちは。ピーマンが野菜で一番好きかもと思い始めました。山本です。
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <%= image_tag 'orebike.jpg', class: "about-image lazyload fadein" %>
+              </div>
+              <div class="about-body">
+                <p>
+                  2014年3月に安田学園高等学校を卒業し7年の社会人生活を経てプログラミングへの道へと進もうと決意しました。<br>
+                  なぜエンジニアなのか。<br>
+                  私は、小さい頃から食に関するものが大好きです。
+                  知らない調味料や材料があった時、何も調理せずそのまま食べてました。
+                  これは大人になっても変わっていません。そのため人より素材本来のもつ旨味を理解していると思っています。<br>
+                  昨今、離農者が増え農家さんの高齢化が問題になっています。
+                  これは機械の導入により人手が必要なくなることや、輸入による影響もあると思います。
+                  しかし、高齢化が進んでいるということはこれらとは関係なく純粋に人が減る可能性が出てきています。<br>
+                  私はこの問題を解決するために何かできないかと考えました。<br>
+                  解決の１歩としては、まずは素材の味を知って頂き素材に興味を持っていただくべきだと考えました。
+                  素材に興味を持てば生産地はたまた生産者への興味へと移り変わっていき、生産者を確認した時に
+                  ほとんどの生産者が高齢の方だと気づくことになると思います。
+                  少なくとも私はこういった経緯で気付きました。<br>
+                  美味しい素材を作って頂いている方達がいなくなりいずれは食べれなくなってしまうことに危機を感じ、
+                  離農者を減らし就農者を増やすためエンジニアを目指すことにしました。
+                  素材の美味しさを人より理解している自分だからこそ、その美味しさをいろんな人たちへと伝え、
+                  興味を持って頂き且つ危機を感じて欲しいと思っています。<br>
+                  <br>
+                  <br>
+                  1995年4月29日生まれ<br>
+                  山本　侑也<br>
+                  趣味：料理、ビリヤード<br>
+                  好きな食べ物：ピーマン、トマト、ほうれん草、鮭　※時期により変動有り<br>
+                  <br>
+                  私は将来、楽しい食生活を提供できるエンジニアになりたいです。<br>
+                  今の日本の離農者問題の解決なども大事ですが、一番は楽しくあるべきだと思います。<br>
+                  食は生きていく上で絶対に必要なものです。それが楽しいものであれば人生は豊になると思います。<br>
+                  そのために日々精進していきたいと思っています。<br>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
+
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL</h2>
+          </div>
+          <div class="section-lead">
+            
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <%= image_tag 'html.png', class: "skill-image" %>
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML5/CSS3</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    基礎学習は習得済になります。CSSとSCSSについては触って調べて を繰り返して自己学習に励んでおります。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <%= image_tag 'js.png', class: "skill-image" %>
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <p>
+                    railsとセットで基礎部分は理解しています。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <%= image_tag 'ruby.png', class: "skill-image" %>
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Ruby on Rails</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    プログラミング言語のメインとして学習していました。フレームワークはRailsを使用してアプリケーション制作ができます。 ライブラリのGemを使用して現在も幅広く知識を習得するために try and error を繰り返しています。</p>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              お問い合わせは、<br class="sp-only">SNSかメールでお願いいたします。
+            </p>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="https://twitter.com/yama490" target="_blank">
+                <%= image_tag 'icon_tw.png', class: "contact-image" %></a>
+              </li>
+              
+            </ul>
+            <div class="contact-text">yyu202@yahoo.co.jp</div>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;YUYA YAMAMOTO. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
